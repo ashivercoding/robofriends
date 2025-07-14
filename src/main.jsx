@@ -12,7 +12,7 @@ import { searchRobots, requestRobots } from './reducers';
 const logger = createLogger();
 
 const rootReducer = combineReducers({ searchRobots, requestRobots })
-const store = createStore(rootReducer, applyMiddleware(logger, thunk));
+const store = createStore(rootReducer, applyMiddleware(thunk));
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>

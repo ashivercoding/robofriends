@@ -1,7 +1,7 @@
 {
   "name": "robofriends",
   "private": true,
-  "homepage": "https://ashivercoding.github.io/robofriends",
+  "homepage": "https://ashivercoding.github.io/robofriends/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

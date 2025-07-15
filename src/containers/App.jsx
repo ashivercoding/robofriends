@@ -5,7 +5,6 @@ import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import './App.css';
 import Header from '../components/Header';
-import CounterButton from '../components/Header';
 
 import { setSearchField, requestRobots } from '../actions';
 

@@ -1,6 +1,7 @@
 {
   "name": "Robofriends",
-  "short_name": "Robofriends",
+  "short_name": "RobofriendsL Where robots make friends",
+  "description": "This app helps robots search for friends",
   "icons": [
     {
       "src": "web-app-manifest-192x192.png",
@@ -18,5 +19,5 @@
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
-  "start_url": "/robofriends/"
+  "start_url": "."
 }

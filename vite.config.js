@@ -20,15 +20,20 @@ export default defineConfig({
         display: 'standalone',
         icons: [
           {
-            src: '',
+            src: '/public/favicon.ico',
             sizes: '192x192',
+            type: 'image/x-icon',
+          },
+          {
+            src: '/public/favicon-96x96.png',
+            sizes: '96x96',
             type: 'image/png',
           },
           {
-            src: '',
-            sizes: '512x512',
-            type: 'image/png',
-          },
+            src: '/public/apple-touch-icon.png',
+            sizes: '180x180',
+            type: 'image/png'
+          }
         ],
         screenshots: [
           {
